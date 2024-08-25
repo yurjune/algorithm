@@ -1,3 +1,4 @@
+# comb([1,2,3], 2) = ([1], comb([2,3], 1)) + ([2], comb([3], 1))
 def comb(arr, k):
     res = []
     if k == 0:
